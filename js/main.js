@@ -14,6 +14,9 @@ rb2.addEventListener('change', function(e) {
 })
 
 
+/**
+ * When the DOM is loaded, click the Skills radio button
+ */
 document.addEventListener('DOMContentLoaded',() => {
     document.getElementById('cb-skills').click()
 })

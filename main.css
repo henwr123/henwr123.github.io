@@ -1,3 +1,11 @@
 body {
     background: #5aadbb;
 }
+
+#card-experience {
+    visibility: hidden;
+}
+
+#cb-experience:checked ~ #card-experience {
+    visibility: visible;
+}
